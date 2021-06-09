@@ -44,7 +44,7 @@ Key value pairs, like an object
 
 ## Other notes from lecture
 
-### Form submit: <button> vs <input>
+### Form submit: `<button>` vs `<input>`
 A form should always have a submit button, however there are two ways to add that button.
 
 - **Option 1:** `<button type="submit">Submit</button>`
