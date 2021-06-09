@@ -1,0 +1,39 @@
+body {
+  background: #555;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-radius: 20px;
+  height: 20px;
+  margin: 5px 0 10px;
+}
+
+button {
+  border: 2px solid white;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 2px 4px;
+  width: fit-content;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello <%= user.name || "New User" %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/mushroom.css' />
+  </head>
+  <body style="background: <%= user && user.color %>">
+    <section>
+      <main>
+        <%- include('mushroom', { user: user }) %>
+      </main>
+    </section>
+    <section>
+      <% if (user.name) { %>
+        <form action="logout">
+          <button type="submit">logout</button>
+        </form>
+      <% } else { %>
+        <form action="/login" method="POST">
+          <label for="name">name</label>
+          <input id="name" name="name" data-lpignore="true">
+          <label for="password">password</label>
+          <input id="password" name="password" type="password" data-lpignore="true">
+          <button type="submit">login</button>
+        </form>
+      <% } %>
+    </section>
+  </body>
+</html>
