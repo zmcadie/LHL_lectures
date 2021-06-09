@@ -1,5 +1,7 @@
 # W3D3 - User Authentication with Express
 
+> Video recording: https://youtu.be/4kwjdRIwz7k
+
 ## Outline
 1. Create a login form
 2. Add server-side authentication
