@@ -62,5 +62,42 @@
   background: black;
   height: 3vw;
   margin: 2vw;
+  position: relative;
   width: 1vw;
+}
+
+.mushroom .body .eye::after, .mushroom .body .eye::before {
+  animation-delay: 20s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  background: white;
+  content: "";
+  position: absolute;
+  width: 100%;
+}
+
+.mushroom .body .eye::before {
+  animation-name: blink-top-lid;
+  bottom: 100%;
+  top: 0%;
+}
+
+.mushroom .body .eye::after {
+  animation-name: blink-bottom-lid;
+  bottom: 0%;
+  top: 100%;
+}
+
+@keyframes blink-top-lid {
+  0% { bottom: 100%; }
+  1% { bottom: 30%;  }
+  2% { bottom: 100%; }
+}
+
+@keyframes blink-bottom-lid {
+  0% { top: 100%; }
+  1% { top: 70%;  }
+  2% { top: 100%; }
 }
