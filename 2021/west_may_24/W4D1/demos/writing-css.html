@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Writing CSS Demo</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: lightgrey;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      body {
+        background: white;
+        min-height: 100vh;
+        margin: 0 auto;
+        max-width: 700px;
+        padding: 25px 50px;
+      }
+
+      #page-header {
+        border-bottom: 4px solid maroon;
+        border-top: 4px solid maroon;
+      }
+
+      .header-h1 {
+        border-bottom: inherit;
+        font-size: 4em;
+      }
+
+      img {
+        height: 50px;
+        float: left;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="page-header">
+      <h1 class="header-h1">The Daily Bugle</h1>
+      <p>New York's most trusted newspaper</p>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h1>Spider-Man Spotted!</h1>
+        </header>
+        <img src="../img/spider_man.jpeg" alt="Spider-Man posing on top of a crosswalk sign">
+        <p class="paragraph-1 article-paragraph">
+          While the Daily Bugle has been well-established in the Marvel series that take place in New York City (so basically all of them), it isn't simply the newspaper itself that has made it such a memorable part of comic book history. No, the heart and soul that has helped the Bugle stand the test of time is the editor-in-chief himself, J. Jonah Jameson. With the intense personality he brings to the paper, it's hard to image the Bugle without its stubborn leader, except — he wasn't always the boss.
+        </p>
+        <p class="article-paragraph">
+          As it turns out, the Daily Bugle was first founded in 1898, long before Jameson was even born. He did have an early start there, however, working at the Bugle while he was still in high school. He would eventually buy the failing newspaper from his deceased father-in-law, and turn it into the still-successful business it is today.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

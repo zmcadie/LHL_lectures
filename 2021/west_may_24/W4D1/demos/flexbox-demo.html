@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Demo</title>
+    <style>
+      .container {
+        align-items: center;
+        background: lightgrey;
+        border: 10px dashed red;
+        height: 500px;
+        width: 350px;
+        
+        display: flex;
+        /* flex-direction: row; */
+        align-items: stretch;
+      }
+
+      .item {
+        background: white;
+        border: 10px dashed green;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+
+        box-sizing: border-box;
+        
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+      </div>
+    </main>
+  </body>
+</html>
