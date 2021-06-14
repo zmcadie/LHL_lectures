@@ -1,5 +1,7 @@
 # W4D1 - Intro to CSS
 
+> Video recording: https://youtu.be/tumm5bGvVuc
+
 > You'll notice that while this week (and every week) has a lot of new concepts, our approach to teaching will start to change. The farther you get into the coursework the more "high-level" the assignments will get and the less emphasis will be put on giving you all the steps and resources to complete an activity. Our expectation is that you'll start to experiment to find *AN* answer.
 > 
 > This means that during lecture when a new concept comes up that you don't fully understand, consider writing it down and researching it afterwards. There are going to be too many new things in morning lectures for everyone to ask "What's XYZ?". We're happy to discuss "XYZ" with you but ask that you do some research first to try and understand it yourself. This will help make sure lectures stay on topic and will help you practice researching programming topics (which is 90% of a developers job).
