@@ -1,5 +1,7 @@
 # W1D3 - Objects in JS
 
+> video recording link: https://youtu.be/3CVX43HGiaU
+
 > Most of your lectures will include instructors live coding. Don't worry about following along line by line. Instead pay attention and collaborate/ask questions.
 
 ## Outline
