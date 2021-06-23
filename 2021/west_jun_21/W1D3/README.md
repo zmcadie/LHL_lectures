@@ -8,8 +8,8 @@
 1. Primitive Data Types
 2. Object Fundamentals
 3. Functions and Objects
-  * pass-by-value
-  * Object methods
+    * pass-by-value
+    * Object methods
 
 ## Primitive Data Types
 1. number
