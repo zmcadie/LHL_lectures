@@ -1,0 +1,31 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+table {
+  border: 3px solid black;
+}
+
+td {
+  border: 3px solid grey;
+  height: 50px;
+  width: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  height: 30px;
+  width: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+td.clicked {
+  background: blue;
+}
