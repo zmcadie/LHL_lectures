@@ -2,10 +2,10 @@
 
 ## Outline
 1. Recap assertions
-1. Exporting a module
 1. Initializing a package
-1. Introducing Chai
+1. Exporting a module
 1. Automating our tests with Mocha
+1. Introducing Chai
 1. Getting started with TDD
 
 ## Glossary
@@ -21,7 +21,7 @@
 * This thing is true
 * These two things are the same
 
-```javascript
+```JS
 // Assert that the passed value is true
 function assert(value, message) {
   if (!value) throw new Error(message)
@@ -41,7 +41,7 @@ function assertStrictEqual(valOne, valTwo, message) {
 ## Exporting a module
 For now we will use the CommonJS syntax (modules.exports, require) for importing and exporting modules.
 
-```javascript
+```JS
 // ...module file that exports a function
 function someFunc() {
   // ...do something
@@ -61,11 +61,6 @@ someFunc() // now we can use the imported module
 * Making our project a package allows us to use npm to import other packages known as dependencies
 * Saving dependencies in package.json means other developers can run `npm install` to download everything they need for our project
 
-## Introducing Chai
-Chai is an assertion library. We will use it instead of the Node built-in `assert`
-
-https://www.chaijs.com/
-
 ## Automating our tests with Mocha
 Mocha is a framework that will automate our tests. It will run all test files in the folder `test`
 
@@ -74,6 +69,11 @@ We covered two functions from Mocha today:
 * `it` — used for running individual tests, usually within a `describe`
 
 https://mochajs.org/
+
+## Introducing Chai
+Chai is an assertion library. We will use it instead of the Node built-in `assert`
+
+https://www.chaijs.com/
 
 ## Getting started with TDD
 > Test driven development is a development practice that tells us how to approach writing our code.
