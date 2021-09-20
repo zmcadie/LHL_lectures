@@ -1,0 +1,19 @@
+{
+  "name": "W2D1",
+  "version": "1.0.0",
+  "description": "## Outline 1. Recap assertions 1. Initializing a package 1. Exporting a module 1. Automating our tests with Mocha 1. Introducing Chai 1. Getting started with TDD",
+  "main": "math.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
