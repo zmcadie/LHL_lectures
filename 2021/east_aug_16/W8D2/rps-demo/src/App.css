@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App > h1 {
+  background: #444;
+  color: white;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.stats-container {
+  color: white;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+}
